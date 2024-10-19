@@ -454,7 +454,7 @@ function Project() {
                   Snake Game
                 </h1>
                 <p className="leading-relaxed line-clamp-2 text-pink-400">
-                  It&apos;s a snake game built using vanilla JavaScript and CSS.
+                It&apos;s a snake game built using vanilla JavaScript and CSS.
                 </p>
                 <motion.a 
                   href="https://the-snake-game.vercel.app/"
@@ -530,7 +530,7 @@ function Project() {
                   Guess Game
                 </h1>
                 <p className="leading-relaxed line-clamp-2 text-pink-400">
-                  It&apos;s a number guessing game created using JavaScript.
+                It&apos;s a number guessing game created using JavaScript.
                 </p>
                 <motion.a 
                   href="https://guess-the-number-coral.vercel.app/"

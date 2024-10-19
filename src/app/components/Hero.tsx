@@ -54,11 +54,11 @@ function Hero() {
           </h1>
           <div className='w-[100px] h-[2px] bg-yellow-300 mb-4'></div>
           <p className="mb-8 leading-relaxed">
-            I'm a passionate UX/UI Designer, SEO Consultant, and Web Developer
-            with a keen eye for detail and a commitment to creating exceptional
-            digital experiences. I thrive on combining creativity and technical
-            expertise to build user-friendly, visually appealing websites that are
-            optimized for both search engines and seamless user interactions.
+           I&apos;m a passionate UX/UI Designer, SEO Consultant, and Web Developer
+           with a keen eye for detail and a commitment to creating exceptional
+           digital experiences. I thrive on combining creativity and technical
+           expertise to build user-friendly, visually appealing websites that are
+           optimized for both search engines and seamless user interactions.
           </p>
           <div className="flex justify-center">
             <Link href={"#Contact"}>

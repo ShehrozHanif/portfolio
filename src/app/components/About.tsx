@@ -39,8 +39,8 @@ function About() {
               className="object-cover object-center rounded-lg shadow-lg transition-transform transform hover:scale-105"
               alt="Nik"
               src={Nik}
-              width={500}
-              height={500}
+              width={700}
+              height={700}
             />
           </motion.div>
 
@@ -54,7 +54,7 @@ function About() {
               About Me
             </h1>
             <p className="mb-8 leading-relaxed text-white">
-              I am a versatile professional with a strong foundation in UX/UI design, SEO consulting, and web development. With expertise in modern web technologies such as Python, TypeScript, JavaScript, and Next.js, I build dynamic and user-centric websites and applications. My passion for creating seamless user experiences, combined with my technical skills, allows me to design, develop, and optimize projects that not only look great but perform exceptionally well. Whether it's improving website visibility through SEO or building intuitive interfaces, I aim to deliver impactful results.
+            I am a versatile professional with a strong foundation in UX/UI design, SEO consulting, and web development. With expertise in modern web technologies such as Python, TypeScript, JavaScript, and Next.js, I build dynamic and user-centric websites and applications. My passion for creating seamless user experiences, combined with my technical skills, allows me to design, develop, and optimize projects that not only look great but perform exceptionally well. Whether it&apos;s improving website visibility through SEO or building intuitive interfaces, I aim to deliver impactful results.
             </p>
             <div className="flex justify-center">
               <motion.a

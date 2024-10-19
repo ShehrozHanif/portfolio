@@ -2,9 +2,8 @@
 "use client"
 
 import React from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
-import { motion, px } from 'framer-motion';
+import { motion} from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import Login from "../../Picture/Login.png";
 import cv from "../../Picture/CV BUILDER.png"
@@ -60,7 +59,7 @@ function Project() {
                   Login-page
                 </h1>
                 <p className="leading-relaxed line-clamp-2 text-pink-400">
-                  It's a clone of the Facebook Login page.The beauty of Tailwind CSS
+                It&apos;s a clone of the Facebook Login page.The beauty of Tailwind CSS
                 </p>
                 <motion.a 
                   href="https://login-clone-eta.vercel.app/?vercelToolbarCode=J-gb-CcfkAcKT2Q"
@@ -79,9 +78,9 @@ function Project() {
           {/* Project-2 */}
           <motion.div 
             className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer"
-            ref={projectRef1}
+            ref={projectRef2}
             initial={{ opacity: 0, scale: 0 }} 
-            animate={inView1 ? { opacity: 1, scale: 1 } : {}} 
+            animate={inView2 ? { opacity: 1, scale: 1 } : {}} 
             transition={{ type: 'spring', stiffness: 100, delay: 0.2 }}
           >
             <div className="flex relative bg-gradient-to-b from-gray-900/80 via-gray-800/90 to-gray-700/80 hover:bg-opacity-90 shadow-lg shadow-blue-500/50 hover:shadow-purple-600/70 rounded-lg overflow-hidden">
@@ -98,10 +97,10 @@ function Project() {
                 CV-Builder
                 </h1>
                 <p className="leading-relaxed line-clamp-2 text-pink-400">
-                  It is a CV-Builder in which you can make your CV and easy to download 
+                It&apos;s a CV-Builder in which you can make your CV and easily download it.
                 </p>
                 <motion.a 
-                  href="https://login-clone-eta.vercel.app/?vercelToolbarCode=J-gb-CcfkAcKT2Q"
+                  href="https://cv-builder-two-swart.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="leading-relaxed text-blue-400 hover:text-blue-600 underline"
@@ -137,7 +136,7 @@ function Project() {
                   Weather Widget
                 </h1>
                 <p className="leading-relaxed line-clamp-2 text-pink-400">
-                  It's a weather app in which you can check weather. build in Next.js.In 
+                It&apos;s a weather app where you can check the weather, built with Next.js.
                 </p>
                 <motion.a 
                   href="https://app-widget-7pmt.vercel.app/"
@@ -178,7 +177,7 @@ function Project() {
                   Snake-game
                 </h1>
                 <p className="leading-relaxed line-clamp-2 text-pink-400">
-                  It's a snake game with mutilple functionalities, easy to play build in Nextjs.
+                It&apos;s a snake game with multiple functionalities, easy to play, built with Next.js.
                 </p>
                 <motion.a 
                   href="https://snake-game-rho-nine.vercel.app/"
@@ -219,7 +218,7 @@ function Project() {
                   Digital-Clock
                 </h1>
                 <p className="leading-relaxed line-clamp-2 text-pink-400">
-                  It is a Digital Clock with Standard and Local Time Functionalities, Build in Nextjs 
+                It&apos;s a digital clock with standard and local time functionalities, built with Next.js.
                 </p>
                 <motion.a 
                   href="https://digital-clock-five-mocha.vercel.app/"
@@ -258,7 +257,7 @@ function Project() {
                   Number Guess Game
                 </h1>
                 <p className="leading-relaxed line-clamp-2 text-pink-400">
-                  For making this game not only build logics but also import components as well
+                To create this game, I not only built the logic but also imported components.
                 </p>
                 <motion.a 
                   href="https://guess-game-psi-wheat.vercel.app/"

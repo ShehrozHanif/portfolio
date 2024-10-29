@@ -11,6 +11,7 @@ import weather from "../../Picture/weatherapp.png"
 import snakeg from "../../Picture/s1.png"
 import digi from "../../Picture/digi.png"
 import guess from "../../Picture/number.png"
+import todo from "../../Picture/to-do.jpg"
 
 function Project() {
   const { ref: projectRef1, inView: inView1 } = useInView({ triggerOnce: true, threshold: 0.3 });
@@ -253,6 +254,44 @@ function Project() {
                 </p>
                 <motion.a 
                   href="https://guess-game-psi-wheat.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="leading-relaxed text-blue-400 hover:text-blue-600 underline"
+                  whileHover={{ scale: 1.05 }} 
+                  whileTap={{ scale: 0.95 }}
+                >
+                  View Project
+                </motion.a>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Project-7 */}
+          <motion.div 
+            className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer"
+            ref={projectRef2}
+            initial={{ opacity: 0, scale: 0 }} 
+            animate={inView2 ? { opacity: 1, scale: 1 } : {}} 
+            transition={{ type: 'spring', stiffness: 100, delay: 0.2 }}
+          >
+            <div className="flex relative bg-gradient-to-b from-gray-900/80 via-gray-800/90 to-gray-700/80 hover:bg-opacity-90 shadow-lg shadow-blue-500/50 hover:shadow-purple-600/70 rounded-lg overflow-hidden">
+              <Image
+                alt="gallery"
+                className="absolute inset-0 w-full h-full object-cover object-center"
+                src={todo}
+              />
+              <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-300 bg-white opacity-0 hover:opacity-100 rounded-lg">
+                <h2 className="tracking-widest text-sm title-font font-medium text-blue-600 mb-1">
+                  To-do
+                </h2>
+                <h1 className="title-font text-lg font-medium text-pink-500 mb-3">
+                  To-do App
+                </h1>
+                <p className="leading-relaxed line-clamp-2 text-pink-400">
+                  It&apos;s a to-do application in which you can write down your to-do and edit or delete it.
+                </p>
+                <motion.a 
+                  href="https://to-do-gamma-nine.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="leading-relaxed text-blue-400 hover:text-blue-600 underline"
